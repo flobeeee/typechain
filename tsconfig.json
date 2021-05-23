@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "commonjs", // node.js를 평범하게 사용하고 다양한걸 import, export 할 수 있음
+    "target": "ES2016", // 어떤 버전의 JS로 컴파일 하고 싶은지
+    "sourceMap":true // sourcemap 처리를 하고싶은지
+  },
+  "include": ["index.ts"], // 컴파일 과정에서 포함할 파일의 배열
+  "exclude": ["node_modules"]
+}
